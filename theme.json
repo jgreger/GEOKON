@@ -1,0 +1,172 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {"slug": "g-white", "color": "rgb(255,255,255)", "name": "GEOKON White"},
+        {"slug": "g-gray-100", "color": "rgb(220,220,220)", "name": "GEOKON Gray 100"},
+        {"slug": "g-gray-200", "color": "rgb(200,200,200)", "name": "GEOKON Gray 200"},
+        {"slug": "g-gray-300", "color": "rgb(180,180,180)", "name": "GEOKON Gray 300"},
+        {"slug": "g-gray-400", "color": "rgb(160,160,160)", "name": "GEOKON Gray 400"},
+        {"slug": "g-gray-500", "color": "rgb(140,140,140)", "name": "GEOKON Gray 500"},
+        {"slug": "g-gray-600", "color": "rgb(120,120,120)", "name": "GEOKON Gray 600"},
+        {"slug": "g-gray-700", "color": "rgb(100,100,100)", "name": "GEOKON Gray 700"},
+        {"slug": "g-gray-800", "color": "rgb(80,80,80)", "name": "GEOKON Gray 800"},
+        {"slug": "g-gray-900", "color": "rgb(60,60,60)", "name": "GEOKON Gray 900"},
+        {"slug": "g-pro-blue", "color": "rgb(1,130,202)", "name": "GEOKON Process Blue"},
+        {"slug": "g-red", "color": "rgb(255,0,0)", "name": "GEOKON Red"}
+      ],
+      "background": true,
+      "text": true,
+      "link": true,
+      "custom": false,
+      "duotone": [
+        {"slug": "g-black-blue", "colors": ["rgb(0,0,0)", "rgb(1,130,202)"], "name": "GEOKON Black to Blue Duotone"}
+      ],
+      "defaultGradients": false,
+      "gradients": [
+        {
+          "slug": "g-black-blue",
+          "name": "GEOKON Black to Blue Gradient",
+          "gradient": "linear-gradient(rgb(0,0,0), rgb(1,130,202))"
+        }
+
+      ]
+    },
+    "blocks": {
+      "core/site-title": {
+        "color": {
+          "defaultPalette": false,
+          "palette": [
+            {"slug": "g-primary", "color": "rgb(1,130,202)", "name": "GEOKON Primary"}
+          ],
+          "link": true,
+          "custom": false,
+          "gradients": [],
+          "customGradient": false
+        },
+        "typography": {
+          "fontFamilies": [
+            {
+              "fontFamily": "Rubik, san-serif",
+              "slug": "g-rubik",
+              "name": "GEOKON Rubik"
+            }
+          ]
+        }  
+      },
+      "core/cover": {
+        "color": {
+          "duotone": [],
+          "customDuotone": false
+        }
+      },
+      "core/preformatted": {
+        "typography": {
+          "fontSizes": [],
+          "customFontSize": false
+        }
+      }
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "width": true
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Open Sans, san-serif",
+          "slug": "g-open-sans",
+          "name": "GEOKON Open Sans"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small", "size": "0.75rem", "name": "Small" },
+        { "slug": "medium", "size": "1.25rem", "name": "Medium" },
+        { "slug": "large", "size": "2.25rem", "name": "Large" },
+        { "slug": "x-large", "size": "3rem", "name": "Extra Large" },
+        { "slug": "gigantic", "size": "3.75rem", "name": "Gigantic" }
+      ],
+      "lineHeight": true,
+      "dropCap": true,
+      "fontWeight": true,
+      "fontStyle": true,
+      "textTransform": true,
+      "letterSpacing": true,
+      "textDecoration": true
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1100px"
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "units": [
+        "px", "rem", "vh", "vw", "%"
+      ],
+      "blockGap": true
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--g-gray-800)",
+      "background": "var(--wp--preset--color--g-white)"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--g-pro-blue)"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "gradient": "var(--wp--preset--gradient--g-black-blue)"
+        }
+      },
+      "core/pullquote": {
+        "border": {
+          "width": "1px",
+          "radius": "10px",
+          "style": "solid",
+          "color": "var(--wp--preset--color--g-gray-700)"
+        }
+      },
+      "core/site-title": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--g-rubik)"
+        }    
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--g-open-sans)",
+      "fontSize": "16px",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "lineHeight": "inherit",
+      "textDecoration": "none",
+      "textTransform": "none"
+    },
+    "spacing": {
+      "margin": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "padding": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "blockGap": "2rem"
+    }
+  }
+}
